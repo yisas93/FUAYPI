@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.contnav{
+  position: fixed;
+  z-index: 1;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .contnav{
+    width: 100vh;
+  }
+}
+
+.parrafo{
+  margin: auto;
+
+}
+
+
+.misionvision{
+  text-align: center;
+  margin: auto;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+.misionvision-title{
+  font-size: 2.3rem;
+}
+.quote-background{
+  background-color: rgb(205, 90, 44);
+  margin-top: 5rem;
+}
+
+.madre{
+  font-style: italic;
+  
+}
+
+.quote-mark{
+  font-size: 3.5rem;
+}
+
+.frase{
+  font-size: 2.3rem;
+}
+.quienes-somos{
+  font-size: 1.3rem;
+}
+.quienes-somos-title{
+  font-size: 2.3rem;
+}
