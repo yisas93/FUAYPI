@@ -290,9 +290,9 @@ Link{
 
 
 .fecha{
-  margin-left: auto;
-  font-weight: 700;
   
+  font-weight: 700;
+  text-align: right;
 }
 
 
@@ -307,7 +307,10 @@ Link{
 
 
 
-
+.yt{
+  color: blue!important;
+  text-decoration: underline;
+}
 
 
 
@@ -347,7 +350,7 @@ Link{
 }
 
 .ghandi{
-  margin-left: 55rem;
+  text-align: right;
 }
 .title-cont-videos{
   margin-bottom: 5rem;
@@ -458,13 +461,14 @@ Link{
 @media (max-width:580px) {
   .youtube{
     height: 215px;
-    width:400px;
+    width:90%;
   }
   .contnav{
     width: 100vh;
   }
   .card-news{
     width: auto;
+    padding: 1rem;
   }
   .list-footer{
     text-align: center;

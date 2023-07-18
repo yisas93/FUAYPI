@@ -41,12 +41,12 @@ export const Noticia = (props) => {
         </div>
         <div className="subtext" >
             <p>{props.subtext}</p>
-            <a href={props.link}>{props.link}</a>
+            <a className="yt" href={props.link}>{props.link}</a>
         </div>
             </div>
             <div className="col-12">
                 <div className="fecha-cont row ">
-                    <div className="fecha col-2" >{props.fecha}</div>
+                    <div className="fecha col-12" >{props.fecha}</div>
                 </div>
             </div>
         </div>
