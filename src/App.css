@@ -44,14 +44,20 @@
   z-index: 1;
   margin-right: auto;
   width: 100%;
+  
 }
-
-@media (max-width: 600px) {
-  .contnav{
-    width: 100vh;
-  }
+.navbar{
+  background-color: (205, 90, 44, 0.398)!important; 
 }
-
+.btn-drop{
+  background-color: rgb(255, 97, 57);
+}
+.btn-drop:focus{
+  background-color: rgb(255, 97, 57);
+}
+.btn-drop:active{
+  background-color: rgb(255, 97, 57);
+}
 .parrafo{
   margin: auto;
 
@@ -63,6 +69,7 @@
   margin: auto;
   margin-top: 3rem;
   font-size: 1.3rem;
+  text-align: start;
 }
 .misionvision-title{
   font-size: 2.3rem;
@@ -86,7 +93,380 @@
 }
 .quienes-somos{
   font-size: 1.3rem;
+  text-align: left;
+  margin-top: 3rem;
+  font-weight: 600;
 }
 .quienes-somos-title{
   font-size: 2.3rem;
+}
+.youtube{
+  height: 315px;
+  width: 560px;
+}
+
+.footer-cont{
+  
+  margin-top: 10rem;
+  border-top: solid 5px rgb(205, 90, 44);;
+}
+
+
+
+
+
+
+.middlepage{
+  border-top: 5px solid rgba(205, 90, 44 ) ;
+  background-color:rgba(205, 90, 44, 0.398); 
+  padding-bottom: 8rem;
+}
+.quienes-somos-title{
+  margin-top: 2.5rem;
+}
+.quienes-somos-title::after{
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100vw;
+  background-color: rgb(205, 90, 44) ;
+  
+  margin: auto;
+  margin-top:  1rem;
+}
+
+.fuaypi-frase{
+  font: 300;
+  font-size: 2.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  
+}
+.anayansy{
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+
+
+
+.inner-footer{
+  margin-top: 4rem;
+}
+.low-footer{
+  height: 3rem;
+  background-color:rgb(205, 90, 44)  ;
+  margin-top: auto;
+}
+.idioma{
+  font-size: 1.2rem;
+  margin-top: .3rem;
+}
+
+.nav-link{
+  transition: .3s ease-in-out;
+  font-size: 1.2rem;
+}
+.nav-link:hover{
+  background-color: rgb(225, 151, 121);
+  color: rgb(245, 241, 240) ;
+  
+}
+.contnav{
+  background-color:  rgb(205, 90, 44);
+}
+
+.logonav{
+  border-radius: 1.5rem;
+}
+
+.logonavbar{
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.list-footer{
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+
+.low-footer{
+  text-align: center;
+}
+
+
+.fuaypi-lowfooter{
+  padding-top: .6rem;
+
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+
+.fuaypi-portada{
+  width: 300px;
+}
+
+.contact{
+  font-weight: 700;
+}
+.logos-contact{
+  color:  rgb(205, 90, 44);
+  transition: .3s ease-in-out;
+}
+.logos-contact:hover{
+  color: rgb(205, 90, 44);
+  text-shadow: 1px 1px 1rem rgb(240, 74, 8);
+  font-size: larger;
+}
+a{
+  text-decoration: none;
+  color: black !important;
+}
+
+.footer-item:hover{
+    color: rgb(240, 74, 8);;
+}
+
+Link{
+  text-decoration: none;
+  color: #282c34!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Noticias*/
+
+
+.title-noticias{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.card-news{
+  margin: auto;
+  padding: 4rem;
+  width: 70%;
+}
+
+
+.noticias-fuaypi{
+  justify-content: space-between;
+  border-bottom: 1px solid #282c34;
+}
+.card-upper{
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #282c34;
+  margin-top: 1rem;
+}
+
+.image-text-news{
+  margin-top: 5rem;
+}
+
+.textnews{
+  text-align: left;
+  
+}
+
+
+.subtext{
+  margin-top: 3rem;
+  margin-left: 1rem
+}
+
+
+.fecha{
+  margin-left: auto;
+  font-weight: 700;
+  
+}
+
+
+.fecha-cont{
+  border-bottom: 1px solid black;
+}
+
+
+.card-title{
+  color: rgb(205, 90, 44);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VIDEOS*/
+
+.videos{
+  margin-left: 1rem;
+}
+.video{
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.container-videos{
+  padding-top: 5rem;
+}
+.quote-video{
+  margin-left: 48%;
+}
+
+.video-frase{
+  margin-left: 30%;
+}
+
+.ghandi{
+  margin-left: 55rem;
+}
+.title-cont-videos{
+  margin-bottom: 5rem;
+  
+}
+.videos-title{
+
+  margin: auto;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px ){
+  .card-news{
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Donar*/
+
+.paypal-cont{
+  margin: auto;
+}
+.parrafo-donar{
+  font-size: 2rem;
+  
+}
+.title-donar{
+  padding-top: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+@media (max-width:580px) {
+  .youtube{
+    height: 215px;
+    width:400px;
+  }
+  .contnav{
+    width: 100vh;
+  }
+  .card-news{
+    width: auto;
+  }
+  .list-footer{
+    text-align: center;
+  }
 }
