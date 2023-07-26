@@ -685,6 +685,7 @@ Link{
     padding: 1rem;
     max-width: 90%;
     margin: auto;
+    max-width: 82%;
   }
   .small-donar-frase{
     margin-left: 1rem;
@@ -692,7 +693,5 @@ Link{
   .footer{
     text-align: center;
   }
-  .list-footer{
-    
-  }
+  
 }
