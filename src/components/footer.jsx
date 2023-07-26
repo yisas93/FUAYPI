@@ -13,19 +13,19 @@ export const Footer=(props)=>{
                     <img src={fuaypi} alt="" style={{width: "200px"}}/>
             </div>
                 <div className="col-12 col-sm-6 col-md-3 d-grid list-footer mb-3 mb-md-0">
-                    <Link to={"/"}><div className="contact footer-item">
+                    <Link to={props.link1}><div className="contact footer-item">
                     {props.first}
                     </div></Link>
-                   <Link to={"/"}> <span className="contact footer-item">
+                   <Link to={props.link2}> <span className="contact footer-item">
                    {props.second}
                     </span></Link> 
-                    <Link to={"/"}><span className="contact footer-item">
+                    <Link to={props.link3}><span className="contact footer-item">
                     {props.third}
                     </span></Link>
-                   <Link to={"/"}> <span className="contact footer-item">
+                   <Link to={props.link4}> <span className="contact footer-item">
                    {props.fourth}
                     </span></Link>
-                    <Link to={"/"}><span className="contact footer-item">
+                    <Link to={props.link5}><span className="contact footer-item">
                     {props.fifth}
                     </span></Link>
                 </div>
@@ -35,9 +35,9 @@ export const Footer=(props)=>{
             </div>
             <div className="col-12 col-sm-6 col-md-3">
                     <h1>
-                    <a href=""><i class="fa-brands fa-square-facebook me-1 logos-contact"></i></a>  
-                   <a href=""> <i class="fa-brands fa-square-whatsapp me-1 logos-contact"></i></a>
-                   <a href=""> <i class="fa-brands fa-cc-paypal logos-contact"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100094635593163&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook me-1 logos-contact"></i></a>  
+                   <a href="https://api.whatsapp.com/send?phone=50686131039"> <i class="fa-brands fa-square-whatsapp me-1 logos-contact"></i></a>
+                  {/*  <a href=""> <i class="fa-brands fa-cc-paypal logos-contact"></i></a>*/}
                     </h1>
             </div>
            </div>

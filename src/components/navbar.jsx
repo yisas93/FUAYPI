@@ -30,19 +30,19 @@ export const Navbar=(props)=>{
         <div className="logonavbar d-block d-sm-none">FUAYPI</div>
         </li>
         <li class="nav-item me-auto">
-          <Link class="nav-link active grow-on-hover" aria-current="page" to={"/"}>{props.first}</Link>
+          <Link class="nav-link active grow-on-hover" aria-current="page" to={props.link1}>{props.first}</Link>
         </li>
         <li class="nav-item me-auto">
-          <Link onClick={()=>setPage("videos")} class="nav-link grow-on-hover"  to={"/videos"}>{props.second}</Link>
+          <Link onClick={()=>setPage("videos")} class="nav-link grow-on-hover"  to={props.link2}>{props.second}</Link>
         </li>
         <li class="nav-item me-auto">
-          <Link onClick={()=>setPage("donar")} class="nav-link"  to={"/donar"}>{props.third}</Link>
+          <Link onClick={()=>setPage("donar")} class="nav-link"  to={props.link3}>{props.third}</Link>
         </li>
         <li class="nav-item me-auto">
-          <Link onClick={()=>setPage("noticias")} class="nav-link "  to={"/noticias"}>{props.fourth}</Link>
+          <Link onClick={()=>setPage("noticias")} class="nav-link "  to={props.link4}>{props.fourth}</Link>
         </li>
         <li class="nav-item me-auto" >
-          <Link onClick={()=>handlePageChange("proyectos")} class={`nav-link ${page === "proyectos" ? " active":""} `}  to={"/proyectos"}>{props.fifth}</Link>
+          <Link onClick={()=>handlePageChange("proyectos")} class={`nav-link ${page === "proyectos" ? " active":""} `}  to={props.link5}>{props.fifth}</Link>
         </li>
         <li className="me-auto">
         <div class="dropdown idioma">

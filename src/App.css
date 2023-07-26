@@ -342,7 +342,7 @@ Link{
   padding-top: 5rem;
 }
 .quote-video{
-  margin-left: 48%;
+ text-align: center;
 }
 
 .video-frase{
@@ -375,11 +375,96 @@ Link{
 
 
 
-@media(max-width: 900px ){
-  .card-news{
-    width: 90%;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Proyectos*/
+
+
+.timer-container{
+  background-color: #282c34;
+  color: white;
+  font-size: 2rem;
+  margin:auto;
 }
+
+
+
+
+.parrafo-proyecto{
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -458,7 +543,117 @@ Link{
 }
 
 
-@media (max-width:580px) {
+
+.form-inner{
+  max-width: 500px;
+  margin: auto;
+}
+
+
+.input-form{
+  font-size: 1.2rem;
+  width: 100%;
+  height: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.form-container{
+  padding: 2rem;
+  
+}
+
+.side-form{
+  background-color: rgba(249, 133, 87, 0.458);
+  padding: 3rem;
+}
+
+.icon-form{
+  font-size: 2.5rem;
+
+ 
+  
+}
+.icon-text-inner{
+  font-weight: bold;
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
+.form-icon-cont{
+  margin-bottom: 2rem;
+}
+
+
+.email{
+  max-width: 60%;
+  margin: auto;
+  box-shadow: 1px 1px 1rem #282c34;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px ){
+  .email{
+    max-width: 70%;
+  }
+}
+
+
+@media(max-width: 992px ){
+  .card-news{
+    width: 90%;
+  } 
+  .email{
+    max-width: 90%;
+  }
+
+}
+
+@media(max-width: 768px){
+  .icon-form{
+    font-size: 2rem;  
+  }
+  .side-form{
+    padding: 2rem;
+  }
+  .input-form{
+    height: auto;
+    margin-bottom: .2rem;
+  }
+  .textarea{
+    max-width: 90%;
+    max-height: 60%;
+  }
+  .textarea-holder{
+    margin-top: 1rem;
+  }
+  .parrafo-donar{
+    font-size: 1.3rem;
+    
+  }
+}
+
+@media (max-width:576px) {
   .youtube{
     height: 215px;
     width:90%;
@@ -472,5 +667,22 @@ Link{
   }
   .list-footer{
     text-align: center;
+  }
+  .input-form{
+    height: auto;
+    margin-bottom: 0rem;
+    font-size: 1rem;
+  }
+  .textarea{
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .form-container{
+    padding:1rem;
+  }
+  .side-form{
+    padding: 1rem;
+    max-width: 90%;
+    margin: auto;
   }
 }

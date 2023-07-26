@@ -2,24 +2,19 @@ import React, {useEffect} from "react";
 import { Navbar } from "../components/navbar.jsx";
 import { Footer } from "../components/footer.jsx";
 import { Paypal} from "../components/paypal.jsx"
-import { Email } from "../components/email.jsx";
-export const Donar=()=>{
+
+export const Donate=()=>{
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
     return(
         <div>
             <Navbar
-            first="Inicio"
+            first="Home"
             second="Videos"
-            third="Donar"
-            fourth="Noticias"
-            fifth="Proyectos"
-            link1="/"
-            link2="/videos"
-            link3="/donar"
-            link4="/noticias"
-            link5="/proyectos"
+            third="Donate"
+            fourth="News"
+            fifth="Projects"
             />
             <div className="pt-5 row">
                 <div className="title-donar col-12">
@@ -28,10 +23,6 @@ export const Donar=()=>{
                 <div className="parrafo-donar col-8 m-auto">
                     <p className="mb-5">Cada acto de generosidad cuenta. En FUAYPI, buscamos marcar la diferencia en la vida de personas necesitadas. Con tu donación, podemos brindar esperanza, apoyo y oportunidades a quienes más lo necesitan. Únete a nuestra misión y juntos hagamos del mundo un lugar mejor.</p>
                 </div>
-                <div className="form">
-                    <Email/>
-                </div>
-                {/*
                 <div className="row d-flex" style={{border: "1px solid red"}}>
                     <div className="paypal-cont col-4">
                         <Paypal/>
@@ -42,7 +33,7 @@ export const Donar=()=>{
                    <div className="cardnum-cont col-4">
                         <div className="card"></div>
                    </div>
-            </div>*/}
+            </div>
                     </div>
                     <div className="row quote-videos quote-background">
   <span className="col-12  quote-mark quote-video"><i class="fa-solid fa-quote-right"></i></span>
@@ -55,15 +46,15 @@ export const Donar=()=>{
 </div>
             <div className="footer-cont">
                 <Footer
-                first="•Noticias"
-                second="•Donar"
+                first="•News"
+                second="•Donate"
                 third="•Videos"
-                fourth="•Proyectos"
-                fifth="•Politica de Privacidad"
-                link1="/noticias"
-                link2="/donar"
-                link3="/videos"
-                link4="/proyectos"
+                fourth="•Projects"
+                fifth="•Privacy Policy"
+                link1="/news"
+                link2="/donate"
+                link3="/videosen"
+                link4="/projects"
                 link5="/"
                 />
             </div>

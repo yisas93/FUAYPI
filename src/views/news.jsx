@@ -7,7 +7,7 @@ import gerald from "../img/gerald.jpg"
 
 
 
-export const Noticias=()=>{
+export const News=()=>{
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -32,16 +32,11 @@ export const Noticias=()=>{
     return(
         <div>
             <Navbar
-            first="Inicio"
+            first="Home"
             second="Videos"
-            third="Donar"
-            fourth="Noticias"
-            fifth="Proyectos"
-            link1="/"
-            link2="/videos"
-            link3="/donar"
-            link4="/noticias"
-            link5="/proyectos"
+            third="Donate"
+            fourth="News"
+            fifth="Projects"
             />
             <div className="pt-5">
                 <div className="title-noticias">
@@ -66,15 +61,15 @@ export const Noticias=()=>{
             </div>
             <div className="footer-cont">
                 <Footer
-                first="•Noticias"
-                second="•Donar"
+                first="•News"
+                second="•Donate"
                 third="•Videos"
-                fourth="•Proyectos"
-                fifth="•Politica de Privacidad"
-                link1="/noticias"
-                link2="/donar"
-                link3="/videos"
-                link4="/proyectos"
+                fourth="•Projects"
+                fifth="•Privacy Policy"
+                link1="/news"
+                link2="/donate"
+                link3="/videosen"
+                link4="/projects"
                 link5="/"
                 />
             </div>

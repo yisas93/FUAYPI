@@ -18,6 +18,11 @@ function App() {
         third="Donar"
         fourth="Noticias"
         fifth="Proyectos"
+        link1="/"
+        link2="/videos"
+        link3="/donar"
+        link4="/noticias"
+        link5="/proyectos"
         />
 
 
@@ -57,8 +62,8 @@ function App() {
     </h2>
     <div className="row">
       <div className="col mt-5">
-        <YouTube videoId={"avk5v3TLET0"}/>
-      </div>
+              <YouTube videoId={"avk5v3TLET0"}/>
+            </div>
     </div>
     </div>
     <div className="col-8 parrafo mt-5">
@@ -159,6 +164,11 @@ Con una visión a largo plazo y un enfoque basado en la participación comunitar
             third="•Videos"
             fourth="•Proyectos"
             fifth="•Politica de Privacidad"
+            link1="/noticias"
+                link2="/donar"
+                link3="/videos"
+                link4="/proyectos"
+                link5="/"
             />
         </div>
     </div>

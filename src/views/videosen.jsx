@@ -3,7 +3,7 @@ import { Navbar } from "../components/navbar.jsx";
 import { Footer } from "../components/footer.jsx";
 import YouTube from "../components/youtube.jsx";
 
-export const Videos=()=>{
+export const VideosEn=()=>{
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -18,16 +18,11 @@ export const Videos=()=>{
     return(
         <div>
             <Navbar
-            first="Inicio"
+            first="Home"
             second="Videos"
-            third="Donar"
-            fourth="Noticias"
-            fifth="Proyectos"
-            link1="/"
-            link2="/videos"
-            link3="/donar"
-            link4="/noticias"
-            link5="/proyectos"
+            third="Donate"
+            fourth="News"
+            fifth="Projects"
             />
             <div className="container-videos">
                 <div className="title-cont-videos row">
@@ -38,7 +33,7 @@ export const Videos=()=>{
             </div>
             <div className="videos row ">
                 {videos.map(video=>(
-                    <div className="col-12 col-md-8 col-lg-4 video ">
+                    <div className="col-12 col-md-8 col-lg-5 video ">
                         <YouTube videoId={video}/>
                     </div>
                 )
@@ -56,16 +51,16 @@ export const Videos=()=>{
 </div>
             <div className="footer-cont">
                 <Footer
-                first="•Noticias"
-                second="•Donar"
-                third="•Videos"
-                fourth="•Proyectos"
-                fifth="•Politica de Privacidad"
-                link1="/noticias"
-                link2="/donar"
-                link3="/videos"
-                link4="/proyectos"
-                link5="/"
+              first="•News"
+              second="•Donate"
+              third="•Videos"
+              fourth="•Projects"
+              fifth="•Privacy Policy"
+              link1="/news"
+              link2="/donate"
+              link3="/videosen"
+              link4="/projects"
+              link5="/"
                 />
             </div>
         </div>
