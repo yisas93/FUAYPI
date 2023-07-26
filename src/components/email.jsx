@@ -17,23 +17,23 @@ export const Email=()=>{
         <div className="email row d-grid d-sm-flex justify-content-center" >
             <div className="col-12 col-sm-7 form-container">
                <form onSubmit={sendEmail}  className="row form-inner" >
-                <h1>
+                <h1 className=" col-11 col-sm-12 m-auto">
                     Contactanos
                 </h1>
-                <div className="col-12 d-flex">
+                <div className="col-11 col-sm-12 m-auto d-flex">
                     <input type="text" placeholder="name" name="name"  className="input-form me-2"/>
                     <input type="email" placeholder="email" name="email"  className="input-form"/>
                 </div>
                 
-               <div className="col-12 ">
+               <div className="col-11 col-sm-12 m-auto ">
                 <input type="text" placeholder="subject" name="subject" className="input-form"/>
                </div>
-                <div className="col-12 textarea-holder">
+                <div className="col-11 col-sm-12 m-auto textarea-holder">
                     <textarea className="textarea" name="message" placeholder="message" cols="37" rows="8">
 
                     </textarea>
                 </div>
-                <div className="col-12">
+                <div className="col-11 col-sm-12 m-auto">
                     <input type="submit" className="btn btn-info" value="send Message" />
                 </div>
             </form> 

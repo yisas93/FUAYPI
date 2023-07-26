@@ -46,8 +46,8 @@ export const Donar=()=>{
                     </div>
                     <div className="row quote-videos quote-background">
   <span className="col-12  quote-mark quote-video"><i class="fa-solid fa-quote-right"></i></span>
-  <div className="col-8 ms-5">
-    <h3 className='frase video-frase'>El más pequeño acto de amabilidad vale más que la más grande intención.  </h3>
+  <div className="col-12 col-sm-8 ms-0 ms-sm-5">
+    <h3 className='frase video-frase small-donar-frase'>El más pequeño acto de amabilidad vale más que la más grande intención.  </h3>
   </div>
   <div className="col-12 ">
     <h3 className='madre ghandi'>-Oscar Wilde</h3>

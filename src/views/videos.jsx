@@ -47,8 +47,8 @@ export const Videos=()=>{
             </div>
             <div className="row quote-videos quote-background">
   <span className="col-6 col-sm-12  quote-mark quote-video"><i class="fa-solid fa-quote-right"></i></span>
-  <div className="col-8 m-auto">
-    <h3 className='frase video-frase'>Donde hay amor, hay vida  </h3>
+  <div className="col-12 col-sm-8 m-auto">
+    <h3 className='frase video-frase small-donar-frase'>Donde hay amor, hay vida  </h3>
   </div>
   <div className="col-12 ">
     <h3 className='madre ghandi'>-Ghandi</h3>

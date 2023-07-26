@@ -672,6 +672,7 @@ Link{
     height: auto;
     margin-bottom: 0rem;
     font-size: 1rem;
+    max-width: 80%;
   }
   .textarea{
     max-width: 60%;
@@ -684,5 +685,14 @@ Link{
     padding: 1rem;
     max-width: 90%;
     margin: auto;
+  }
+  .small-donar-frase{
+    margin-left: 1rem;
+  }
+  .footer{
+    text-align: center;
+  }
+  .list-footer{
+    
   }
 }

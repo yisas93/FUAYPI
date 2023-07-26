@@ -25,12 +25,12 @@ export const Proyectos=()=>{
             <div className="pt-5">
                 <h1 className="mt-5 d-flex justify-content-center">Proyectos</h1>
             </div>
-            <h2 className="d-flex justify-content-center mt-3">
+            <h2 className="d-flex justify-content-center mt-3 ms-4 m-sm-0">
             Preparando el Futuro: Proyectos en Desarrollo
             </h2>
             <div className="row">
                 <div className="col-12 col-md-8 col-lg-5 d-flex justify-content-center m-auto">
-                  <p className="parrafo-proyecto">
+                  <p className="parrafo-proyecto p-4 p-sm-0">
             En la Fundación Fuaypi, estamos dedicados a transformar vidas y fortalecer comunidades. Actualmente, estamos en proceso de planificación y diseño de proyectos innovadores. ¡Estamos ansiosos por compartir nuestras ideas contigo pronto!
             </p>  
                 </div>
@@ -46,8 +46,8 @@ export const Proyectos=()=>{
             </div>
             <div className="row quote-videos quote-background">
   <span className="col-12  quote-mark quote-video"><i class="fa-solid fa-quote-right"></i></span>
-  <div className="col-8 ms-5">
-    <h3 className='frase video-frase'>El hombre sabio no acumula sus propios tesoros. Cuanto más da a los demás, más tiene para sí mismo.  </h3>
+  <div className="col-12 col-sm-8 ms-0 ms-sm-5 ">
+    <h3 className='frase video-frase small-donar-frase'>El hombre sabio no acumula sus propios tesoros. Cuanto más da a los demás, más tiene para sí mismo.  </h3>
   </div>
   <div className="col-4 ms-auto ">
     <h3 className='madre '>-Lao Tzu</h3>
